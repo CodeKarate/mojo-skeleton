@@ -1,0 +1,7 @@
+{
+    "name": "kodekarate/mojo-skeleton",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}

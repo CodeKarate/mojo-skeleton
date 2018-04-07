@@ -2,11 +2,16 @@
     "name": "codekarate/mojo-skeleton",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
     "require": {
-        "php": "^5.6",
-        "codekarate/mojo-core": "dev-master"
+        "php": ">=5.6",
+        "codekarate/mojo-core": "dev-dev"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/CodeKarate/mojo-core.git"
+        }
+    ],
     "authors": [
         {
             "name": "Shipu Ahamed",
@@ -17,5 +22,16 @@
             "email": "rana7cse@gmail.com"
         }
     ],
+    "extra": {
+        "installer-paths": {
+            "./core/": ["codekarate/mojo-core"]
+        }
+    },
+    "config": {
+      "preferred-install": "dist",
+      "sort-packages": true,
+      "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
     "prefer-stable": true
 }

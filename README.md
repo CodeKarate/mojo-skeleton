@@ -3,5 +3,9 @@ A PHP nano-framework
 
 For First time usages:
 ```shell
-sh setup.sh
+composer install
+```
+##### In core folder not have .git repo then delete core and vendor folder from root directory and run: 
+```
+composer install --prefer-source 
 ```

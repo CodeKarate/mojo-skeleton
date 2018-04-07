@@ -9,3 +9,9 @@ composer install
 ```
 composer install --prefer-source 
 ```
+
+# For push in mojo-core
+```
+cd core
+git push composer dev
+```
